@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ContextuelModeListe</string>
+    <string name="action_search"></string>
+    <string-array name="elements">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+        <item>four</item>
+        <item>five</item>
+    </string-array>
+</resources>

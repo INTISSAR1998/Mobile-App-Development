@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ContactLFI3G2</string>
+    <string name="tv_contact">Ajouter contact</string>
+    <string name="tv_nom">Nom :</string>
+    <string name="tv_phone">Numéro :</string>
+    <string name="title_activity_tasnim">Tasnim</string>
+</resources>

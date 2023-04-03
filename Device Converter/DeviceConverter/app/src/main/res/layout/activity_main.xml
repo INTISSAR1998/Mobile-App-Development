@@ -1,0 +1,58 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvSaisie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saisir le montant à afficher"
+            android:orientation="vertical" />
+
+        <EditText
+            android:id="@+id/etMontant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"/>
+
+        <RadioGroup
+            android:id="@+id/group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <RadioButton
+                android:id="@+id/rbetd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Euro -> Dinars" />
+
+            <RadioButton
+                android:id="@+id/rbdte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dinars -> Euro" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnConvert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Convertir" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Le Résultat sera affiché ici" />
+
+</LinearLayout>
+

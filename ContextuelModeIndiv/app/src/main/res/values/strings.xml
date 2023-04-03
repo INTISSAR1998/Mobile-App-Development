@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ContextuelModeIndiv</string>
+    <string name="action_search"></string>
+    <string name="action_settings"></string>
+    <string name="text">Hello world !</string>
+    <string name="click">lONG-CLIC ME</string>
+</resources>
